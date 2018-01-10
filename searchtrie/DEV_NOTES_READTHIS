@@ -1,0 +1,10 @@
+
+The data structure of the SearchTrie is flawed.
+The "root" should be a dictionary, functioning
+exactly the same as the "children" dictionary
+in the SearchNode objects.  It is currently
+implemented as an instance of SearchNode, which
+is why the .search method fails.  After this
+change, the "addTerm" method will have to be
+changed as well, and I predict it will actually
+simplify the algorithm quite a bit.
