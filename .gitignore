@@ -1,0 +1,5 @@
+# Specific files
+dbkey.js
+
+# node modules
+node_modules/
