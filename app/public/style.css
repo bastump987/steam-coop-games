@@ -1,0 +1,37 @@
+:root{
+	--dark-gray: rgba(40,40,50,1);
+	--off-white: whitesmoke;
+}
+
+* {
+	font-family: 'Roboto', sans-serif;
+}
+
+#background{
+	height: 100%;
+	width: 100%;
+	background-color: var(--dark-gray);
+}
+
+.center{
+	height: inherit;
+	width: inherit;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#searchbox{
+	width: 70%;
+	max-width: 750px;
+	height: 40px;
+	font-size: 1.05rem;
+	border-radius: 8px;
+	border: solid 1px var(--off-white);
+	color: var(--off-white);
+	background: none;
+	padding: 8px;
+}
+#searchbox:focus{
+	outline: none;
+}
